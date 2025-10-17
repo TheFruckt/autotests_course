@@ -1,4 +1,1 @@
-123
-asdea
-zadfas
-zxcv
+print('asd')
