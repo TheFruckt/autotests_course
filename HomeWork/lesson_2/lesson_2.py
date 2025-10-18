@@ -101,10 +101,11 @@ def formula(a, b):
 
 def symbol(string):
     string = str(string)
-    print(string[1::2])
+    string = string[1::2]
+    print(string)
 
 
-# symbol('Hello world!')
+symbol('1234567890')
 
 """
 Задание 7
@@ -117,7 +118,7 @@ jmpy veldt whangs fox’, срез минимальной длины: ‘t whang
 """
 
 
-def find_matche(str1, str2):
+def find_matches(str1, str2):
     str1 = str(str1)
     str2 = str(str2)
 
@@ -131,4 +132,4 @@ def find_matche(str1, str2):
     print(str2[pos_1:pos_2+1])
 
 
-# find_matche(123, 'lgk3ru eckm m212dale o1bdaw')
+# find_matches(123, 'lgk3ru eckm m212dale o1bdaw')
