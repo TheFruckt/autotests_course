@@ -15,7 +15,7 @@ def operations_square(side):
     print(f'Диагональ квадрата со стороной {side} равна {diagonal}')
 
 
-# operations_square(12)
+operations_square(12)
 
 """
 Задание 2
@@ -38,7 +38,7 @@ def quadratic_equation(b, c, a=1):
         print(f'Дискриминант = {d} < 0')
 
 
-# quadratic_equation(2, 11)
+quadratic_equation(2, 11)
 
 """
 Задание 3
@@ -56,7 +56,7 @@ def string_swap(string1, string2):
     print(result)
 
 
-# string_swap('5634', '1278')
+string_swap('5634', '1278')
 
 """
 Задание 4
@@ -74,7 +74,7 @@ def path_file(path):
     print(f'Имя файла без расширения - {file_name.split(".")[0]}')
 
 
-# path_file(r'C:\Users\pa.remizov\PycharmProjects\AutoTest\lesson_2.py')
+path_file(r'C:\Users\pa.remizov\PycharmProjects\AutoTest\lesson_2.py')
 
 """
 Задание 5
@@ -90,7 +90,7 @@ def formula(a, b):
     print(f'{a} + {b} = {c1}\n{a}*{b} = {c2}')
 
 
-# formula(12, 21)
+formula(12, 21)
 
 """
 Задание 6
@@ -101,10 +101,11 @@ def formula(a, b):
 
 def symbol(string):
     string = str(string)
-    print(string[1::2])
+    string = string[1::2]
+    print(string)
 
 
-# symbol('Hello world!')
+symbol('1234567890')
 
 """
 Задание 7
@@ -117,7 +118,7 @@ jmpy veldt whangs fox’, срез минимальной длины: ‘t whang
 """
 
 
-def find_matche(str1, str2):
+def find_matches(str1, str2):
     str1 = str(str1)
     str2 = str(str2)
 
@@ -131,4 +132,4 @@ def find_matche(str1, str2):
     print(str2[pos_1:pos_2+1])
 
 
-# find_matche(123, 'lgk3ru eckm m212dale o1bdaw')
+find_matches(123, 'lgk3ru eckm m212dale o1bdaw')
